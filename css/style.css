@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(41, 88, 88);
+}
+
+#AllQuestions {
+    width: 100%;
+}
+
+.QuestionBar {
+    background-color: rgb(9, 43, 105);
+    color: white;
+}
+
+.OptionBar div div button {
+    box-shadow: rgba(0, 0, 0, 0.644) 0px 0px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.OptionBar div div button .OpNum {
+    background-color: rgb(25, 165, 230);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    color: white;
+    padding: 10px 0;
+    width: 10%;
+}
+
+.OptionBar div div button .MainOp {
+    width: 90%;
+}
+
+.ProgressBar {
+    width: 90%;
+}
+
+.ProgressBar div {
+    position: relative;
+}
+
+.ProgressBar div ul {
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -28px;
+    list-style: none;
+    top: 0;
+}
+
+.ProgressBar div ul li {
+    background-color: white;
+    border-radius: 100%;
+    padding: 4px 10px;
+}
+
+#result {
+    display: none;
+}
+
+#result>div {
+    height: 100vh;
+}
+
+#result>div>div {
+    border: 10px solid #198754;
+}
